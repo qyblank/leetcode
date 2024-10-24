@@ -47,4 +47,17 @@ package code;
         -104 <= nums[i] <= 104
         nums 已按 非严格递增 排列*/
 public class 去除重复元素 {
+    public int removeDuplicates(int[] nums) {
+        //基本思路：遍历数组，每当遇到一个新的数，唯一元素k加一，并将该新数储存到数组k位置
+        if(nums.length==0) return 0;
+        int num=1;
+        for (int i = 1; i < nums.length; i++) {
+            if(nums[i]!=nums[num-1]){
+                nums[num]=nums[i];
+                num++;
+            }
+        }
+        return num;
+    }
+
 }

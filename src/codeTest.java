@@ -1,15 +1,9 @@
 import org.junit.Test;
 public class codeTest {
+    Solution solution=new Solution();
     @Test
     public void test(){
-            Solution solution=new Solution();
-
-
-
-
-
-            int[] a={};
-            int[] b={1};
-            solution.merge(a,0,b,1);
+            int[] a={0,0,1,1,1,1,2,3,3};
+            solution.removeDuplicates(a);
     }
 }
