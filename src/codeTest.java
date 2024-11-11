@@ -7,9 +7,8 @@ public class codeTest {
     @Test
     public void test(){
 
-            int[] a={3,2,1,0,4};
-        boolean b = solution.canJump(a);
+            int[] a={3,0,6,1,5};
+        int b = solution.hIndex(a);
         System.out.println(b);
-
     }
 }
