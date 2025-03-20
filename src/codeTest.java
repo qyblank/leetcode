@@ -7,8 +7,16 @@ public class codeTest {
     @Test
     public void test(){
 
-            int[] a={3,0,6,1,5};
-        int b = solution.hIndex(a);
-        System.out.println(b);
+            int a=8;
+        int i = solution.mySqrt(2147395599);
+        System.out.println(i);
+
     }
+
+    @Test
+   public void test2(){
+        int a=536848900*536848900;
+        System.out.println(a);
+    }
+
 }
