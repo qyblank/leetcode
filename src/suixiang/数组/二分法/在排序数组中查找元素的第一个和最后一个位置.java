@@ -1,4 +1,4 @@
-package suixiang.二分法;
+package suixiang.数组.二分法;
 /*
 34. 在排序数组中查找元素的第一个和最后一个位置
 

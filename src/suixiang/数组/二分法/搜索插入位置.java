@@ -1,4 +1,4 @@
-package suixiang.二分法;
+package suixiang.数组.二分法;
 
 
 /*

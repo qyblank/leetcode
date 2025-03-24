@@ -1,4 +1,4 @@
-package suixiang.二分法;
+package suixiang.数组.二分法;
 /*367. 有效的完全平方数
         简单
         相关标签

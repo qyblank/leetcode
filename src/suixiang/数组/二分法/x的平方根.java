@@ -1,4 +1,4 @@
-package suixiang.二分法;
+package suixiang.数组.二分法;
 /*69. x 的平方根
         简单
         相关标签
