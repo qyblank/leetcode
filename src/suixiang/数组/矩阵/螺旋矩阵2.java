@@ -1,4 +1,4 @@
-package suixiang.数组.螺旋矩阵;
+package suixiang.数组.矩阵;
 /*59. 螺旋矩阵 II
     中等
             相关标签
@@ -17,8 +17,6 @@ package suixiang.数组.螺旋矩阵;
     输入：n = 1
     输出：[[1]]
     https://leetcode.cn/problems/spiral-matrix-ii/description/*/
-import java.util.Arrays;
-import java.util.Collections;
 
 class Solution {
     public int[][] generateMatrix(int n) {

@@ -1,4 +1,4 @@
-package suixiang.数组.螺旋矩阵;
+package suixiang.数组.矩阵;
 
 /*54. 螺旋矩阵
         中等
